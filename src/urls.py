@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from rest_framework import routers
-from src.quickstart import views
+from quickstart import views
+
 from django.contrib import admin
 
 router = routers.DefaultRouter()
